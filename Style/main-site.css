@@ -1,5 +1,5 @@
 * {
-    all: unset;
+        all: unset;
     display: revert;
     box-sizing: border-box;
     font-family: Tahoma, sans-serif;
@@ -21,7 +21,7 @@ header {
     margin: 0 10px 0 10px;
 }
 
-button {
+.header-btn {
     cursor: pointer;
     padding: 5px 10px;
     background-color: #b6b6b6;
@@ -30,7 +30,16 @@ button {
     margin: 0 5px;
 }
 
-button:hover {
+.header-btn:hover {
     background-color: #cdcdcd;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #efefef;
+    border: black 1px solid;
+    margin: 0 5px;
+    border-radius: 4px;
 
 }
