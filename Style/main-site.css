@@ -1,5 +1,5 @@
 * {
-        all: unset;
+    all: unset;
     display: revert;
     box-sizing: border-box;
     font-family: Tahoma, sans-serif;
@@ -97,4 +97,30 @@ header {
 
 .header-btn:hover {
     background-color: #557393;
+}
+
+.main-content {
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px 30px;
+    background: greenyellow;
+}
+
+.main {
+    min-width: 100px;
+    background: orange;
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar-btn {
+    margin: 4px 0;
+    background-color: grey;
+    padding: 5px 15px;
 }
