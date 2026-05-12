@@ -100,6 +100,7 @@ header {
 }
 
 .main-content {
+    justify-content: center;
     display: flex;
     padding: 10px;
     margin: 0 auto;
@@ -113,7 +114,7 @@ header {
 }
 
 .main {
-    min-width: 100px;
+    min-width: 300px;
     background: orange;
     padding: 10px;
     text-align: center;
@@ -123,4 +124,9 @@ header {
     margin: 4px 0;
     background-color: grey;
     padding: 5px 15px;
+}
+
+aside {
+    background: cadetblue;
+    padding: 10px;
 }
