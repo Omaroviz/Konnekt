@@ -108,9 +108,9 @@ header {
 
 .sidebar {
     display: flex;
-    flex-direction: column-reverse;
-    padding: 10px 30px;
-    background: greenyellow;
+    flex-direction: column;
+    padding: 0;
+    border: 1px solid #41658e;
 }
 
 .main {
@@ -121,9 +121,18 @@ header {
 }
 
 .sidebar-btn {
-    margin: 4px 0;
-    background-color: grey;
-    padding: 5px 15px;
+    text-align: left;
+    margin: 3px 10px;
+    /*background-color: #dcdcdc;*/
+    color: #45688e;
+    font-size: 10px;
+    padding: 5px 20px;
+}
+
+.sidebar-btn-div {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
 }
 
 aside {

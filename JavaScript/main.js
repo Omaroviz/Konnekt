@@ -1,8 +1,4 @@
 'use strict'
 
-const plus = (num1, num2) => {
-	return num1 + num2;
-}
-
-console.log(plus(5, 2));
+!false || false ? console.log(true) : console.log(false)
 
