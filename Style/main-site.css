@@ -114,10 +114,11 @@ header {
 }
 
 .main {
-    min-width: 300px;
-    background: orange;
-    padding: 10px;
+    min-width: 500px;
+    /*background: orange;*/
+    padding: 0;
     text-align: center;
+    display: flex;
 }
 
 .sidebar-btn {
@@ -126,7 +127,13 @@ header {
     /*background-color: #dcdcdc;*/
     color: #45688e;
     font-size: 10px;
-    padding: 5px 20px;
+    padding: 5px 20px 5px 10px;
+    transition: 0.2s;
+    border-radius: 4px;
+}
+
+.sidebar-btn:hover {
+    background-color: #e8e8e8;
 }
 
 .sidebar-btn-div {
@@ -138,4 +145,48 @@ header {
 aside {
     background: cadetblue;
     padding: 10px;
+}
+
+.a {
+    cursor: pointer;
+}
+
+.main-left {
+    /*background-color: #0ac630;*/
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #41658e;
+
+}
+
+.main-page {
+    width: 100%;
+    background-color: #0ac6b6;
+}
+
+.avatar {
+    justify-content: center;
+    background-color: #8774E1;
+    height: 250px;
+    width: 170px;
+    margin: 10px auto;
+}
+
+.main-left-btn-div {
+    background-color: lightgrey;
+    padding: 10px 1px;
+    margin: 10px auto;
+    width: 170px;
+}
+
+.main-left-btn {
+    font-size: 10px;
+    color: white;
+    padding: 8px 40px;
+    background-color: #4474a8;
+}
+
+.info {
+    text-align: left;
 }

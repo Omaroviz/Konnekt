@@ -1,4 +1,5 @@
 'use strict'
 
-!false || false ? console.log(true) : console.log(false)
+const userName = document.getElementById("profileName")
 
+userName.innerText = "userName"
