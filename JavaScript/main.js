@@ -2,7 +2,7 @@
 
 const userName = document.getElementById("profileName")
 
-userName.innerText = "userName"
+userName.innerText = "кто-то"
 
 let num;
 
