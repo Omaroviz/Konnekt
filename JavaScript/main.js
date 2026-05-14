@@ -1,8 +1,8 @@
 'use strict'
 
-// const userName = document.getElementById("profileName")
-//
-// userName.innerText = "userName"
+const userName = document.getElementById("profileName")
+
+userName.innerText = "userName"
 
 let num;
 

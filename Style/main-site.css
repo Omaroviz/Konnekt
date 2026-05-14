@@ -110,7 +110,7 @@ header {
     display: flex;
     flex-direction: column;
     padding: 0;
-    border: 1px solid #41658e;
+    /*border: 1px solid #41658e;*/
 }
 
 .main {
@@ -153,7 +153,7 @@ aside {
 
 .main-left {
     /*background-color: #0ac630;*/
-    min-width: 200px;
+    width: 70%;
     display: flex;
     flex-direction: column;
     border: 1px solid #41658e;
@@ -168,25 +168,52 @@ aside {
 .avatar {
     justify-content: center;
     background-color: #8774E1;
-    height: 250px;
-    width: 170px;
+    height: 255px;
+    width: 90%;
     margin: 10px auto;
 }
 
 .main-left-btn-div {
     background-color: lightgrey;
-    padding: 10px 1px;
+    padding: 8px 8px;
     margin: 10px auto;
-    width: 170px;
+    width: 90%;
+    text-align: center;
+    /*height: 10px;*/
 }
 
 .main-left-btn {
-    font-size: 10px;
+    font-size: 11px;
     color: white;
+    width: 100%;
     padding: 8px 40px;
     background-color: #4474a8;
 }
 
+.main-left-btn:hover {
+    background-color: #6189b5;
+}
+
+.main-left-btn {
+    background-color: #3373b8;
+}
+
 .info {
     text-align: left;
+}
+
+.main-left-btn-gift {
+    justify-content: center;
+    color: #45688e;
+    font-size: 12px;
+    background-color: #dfe3e6;
+    padding: 8px 8px;
+    margin: 10px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.info-friends {
+    color: #45688e;
+    padding: 0 0 0 20px;
 }
