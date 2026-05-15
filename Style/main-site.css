@@ -2,7 +2,7 @@
     all: unset;
     display: revert;
     box-sizing: border-box;
-    font-family: Tahoma, sans-serif;
+    font-family: Tahoma, Arial, verdana, serif;
     font-size: 13px;
 }
 
@@ -232,4 +232,38 @@ aside {
 
 hr {
     all: revert;
+}
+
+.main-page-info-detail-first {
+    color: #7c7c7c;
+}
+
+.main-page-info-detail-second {
+    color: #45688e;
+}
+
+.main-page-info-detail {
+    display: flex;
+}
+
+.main-page-info-detail-first-div {
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+}
+
+.main-page-info-detail-second-div {
+    display: flex;
+    margin: 0 0 0 20px;
+    flex-direction: column;
+    min-width: 100px;
+}
+
+.main-page-info-detail-btn {
+    cursor: pointer;
+    margin: 10px 10px 10px 5px;
+    color: #45688e;
+}
+
+.main-page-info-detail-btn:hover {color: #2971c3;
 }
